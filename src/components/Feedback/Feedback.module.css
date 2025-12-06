@@ -1,0 +1,6 @@
+.feedback {
+	text-transform: capitalize;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}

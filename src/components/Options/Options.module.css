@@ -1,0 +1,29 @@
+.options {
+	display: flex;
+	gap: 5px;
+}
+
+.options_button {
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 4px 10px;
+	text-transform: capitalize;
+    color:black;
+}
+
+.options_button:hover {
+	background-color: white;
+}
+.reset_btn {
+    background-color: red;
+    color:black;
+    border: 1px solid black;
+	border-radius: 3px;
+	padding: 4px 10px;
+	text-transform: capitalize;
+}
+
+.reset_btn:hover {
+	background-color: white;
+}
