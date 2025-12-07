@@ -1,16 +1,18 @@
-# React + Vite
+Тема 4. Стан і форми. Домашня робота
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Завдання. Віджет відгуків
 
-Currently, two official plugins are available:
+Напиши застосунок для збору відгуків про кав'ярню Sip Happens Café. Подивись демо-відео роботи застосунку.
+Застосунок повинен відображати кількість зібраних відгуків для кожної категорії: good, neutral, bad. Застосунок повинен зберігати статистику відгуків між оновленням сторінки.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Компоненти
 
-## React Compiler
+В цьому завданні інтерфейс вже розділений на компоненти, твоя задача перенести це в код. Частини інтерфейсу, що входять в компонент, обведені рамкою відповідного кольору.![alt text](screen1.png)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Як бачиш, всі компоненти рендеряться всередині компонента App.
 
-## Expanding the ESLint configuration
+Назва кав'ярні:
+Sip Happens Café
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Текст опису:
+Please leave your feedback about our service by selecting one of the options below.
